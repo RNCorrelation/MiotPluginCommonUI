@@ -1,0 +1,11 @@
+{
+    "name": "LHCommonUI",
+    "version": "0.0.1",
+    "scripts": {
+	    "pre-lint": "node ../Mijia-CommonFunction-Modules/DevTools/Eslint/EslintCheck.js"
+	  },
+	  "pre-commit": [
+	    "pre-lint"
+	  ],
+    "dependencies": {}
+}
